@@ -20,14 +20,14 @@ This demo uses the Google Compute Platform's DataStore product to store arbitrar
 To run the demo I used Google AppEngine because it's extremely easy to deploy live webservices,
 and the sandbox they give you is fantastic.
 
-Dependency management is handled with [dep][https://github.com/golang/dep], though you could always use `go get` as well.
+Dependency management is handled with [dep](https://github.com/golang/dep), though you could always use `go get` as well.
 
 
 ### Installation
 
 #### Requirements
 
-* A recent version of [https://golang.org/dl/][Go].
+* A recent version of [Go](https://golang.org/dl/).
 * The google cloud sdk: https://cloud.google.com/appengine/docs/standard/go/download
 
 ```
