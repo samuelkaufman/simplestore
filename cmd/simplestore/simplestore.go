@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/samuelkaufman/simplestoreapp"
+	"github.com/samuelkaufman/simplestore/pkg/simplestoreapp"
 )
 
 func init() {
