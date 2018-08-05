@@ -53,3 +53,18 @@ You can now the api at localhost:8080, or you can run the test with:
     go test -v  github.com/samuelkaufman/simplestore/cmd/simplestore -args -port 8080
 
 Google AppEngine's SDK also comes with a nice mock DataStore browser which you can reach at http://localhost:8000/datastore.
+
+
+## Live Demo
+
+The demo is currently live at:
+
+https://simplestoredemo.appspot.com/
+
+you can test it as follows:
+
+    $ curl https://simplestoredemo.appspot.com/messages -H 'Content-Type: application/json' -d '{"hello":"world"}'
+  {"digest":"93a23971a914e5eacbf0a8d25154cda309c3c1c72fbb9914d47c60f3cb681588"}
+
+    $ curl https://simplestoredemo.appspot.com/messages/93a23971a914e5eacbf0a8d25154cda309c3c1c72fbb9914d47c60f3cb681588
+
