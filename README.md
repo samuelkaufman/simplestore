@@ -30,6 +30,7 @@ Dependency management is handled with [dep][https://github.com/golang/dep], thou
 * A recent version of [https://golang.org/dl/][Go].
 * The google cloud sdk: https://cloud.google.com/appengine/docs/standard/go/download
 
+```
     #set up your GOPATH, or make a temporary one
     export GOPATH=$HOME/skaufmandemo
     mkdir -p $GOPATH/src/github.com/samuelkaufman
@@ -45,6 +46,7 @@ Dependency management is handled with [dep][https://github.com/golang/dep], thou
     cd cmd/simplestore
     #this will use the default port of 8080, you can change the port with --port
     dev_appserver.py .
+```
 
 You can now the api at localhost:8080, or you can run the test with:
 
