@@ -86,5 +86,6 @@ func (s *SimpleStore) MessagesGet(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), 404)
 		return
 	}
+	w.Header().Set("Content-Type", "application/json")
 	w.Write([]byte(e.Value))
 }
